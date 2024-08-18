@@ -1,0 +1,210 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Navigation Bar */
+header {
+    background-color:#441153;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+}
+nav p{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 600;
+    color: #fff;
+}
+
+nav p:hover{
+    color: #a359a0;
+}
+nav ul li {
+    margin: 0 45px 0 145px;
+   
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+nav ul li a:hover{
+    color: #a359a0;
+    
+}
+
+
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(#a359a070,#a359a088),url('pexels-anniroenkae-3109812.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0d0d0d;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #0d0d0d;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: 800;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #441153;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a359a0;
+    color: #0d0d0d;
+    font-weight: 900;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+
+.projects h2 {
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+    text-decoration: line-through;
+}
+.projects h2:hover{
+    color: #0d0d0d;
+}
+.project-category {
+    margin-bottom: 50px;
+}
+
+.project-category h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0d0d0d;
+    font-family: Copperplate, Papyrus, fantasy;
+    text-decoration: underline;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 150px;
+}
+
+.project-grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-image: linear-gradient(#a359a070,#a359a088),url('pexels-adrienne-andersen-1174503-2351844.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+   
+}
+.contact a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.contact h2 {
+    text-align: center;
+    
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff5714;
+}
+
+/* Footer */
+footer {
+    background-color: #441153;
+    color: #a7a5a5;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
